@@ -21,6 +21,7 @@ end
   def add_post_by_title(title)
     post = Post.new(title)
     post.author = self
+    puts "My Great Blog Post"
   end
 
 def posts
@@ -31,5 +32,5 @@ end
 def self.post_count
   Post.all.count
   end
-  
+
 end
