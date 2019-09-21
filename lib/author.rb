@@ -21,7 +21,6 @@ end
   def add_post_by_title(title)
     post = Post.new(title)
     post.author = self
-    title = "My Great Blog Post"
   end
 
 def posts
